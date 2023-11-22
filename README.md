@@ -2,30 +2,53 @@
 
 It is a simple Ovulation Calculator web app built using Next.js, TypeScript, Tailwind CSS.
 
-## Prerequisites
+## Requirements
+
+- Docker
+
+or
 
 - node
 - npm(preferred)
 
 ## Installation
 
-Clone the project
+### With docker
 
-```
+<details>
+<summary>
+Click Me
+</summary>
+
+1. Clone the repository
+2. Use docker-compose to run the server
+
+```bash
 git clone git@github.com:geekyharsh05/Ovumate.git
+docker-compose up -d
 ```
 
-Install necessary dependencies
+</details>
 
-```
+### Without docker
+
+<details>
+<summary>
+Click Me
+</summary>
+
+1. Clone the repository
+2. Install the dependencies
+3. Run the server
+
+```bash
+git clone git@github.com:geekyharsh05/Ovumate.git
 cd Ovumate
 npm install
-```
-Run the dev server with
-
-```
 npm run dev
 ```
+
+</details>
 
 ## Author
 
